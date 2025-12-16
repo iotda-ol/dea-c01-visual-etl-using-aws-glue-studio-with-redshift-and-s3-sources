@@ -1,0 +1,2 @@
+# dea-c01-visual-etl-using-aws-glue-studio-with-redshift-and-s3-sources
+This repository demonstrates how to build a visual, low-code ETL pipeline using AWS Glue Studio. It reads data from multiple Amazon S3 sources, performs joins, aggregations, and data quality checks, and loads results into Amazon Redshift. The project highlights limitations compared to custom Spark scripts, aligned with DEA-C01 best practices.
