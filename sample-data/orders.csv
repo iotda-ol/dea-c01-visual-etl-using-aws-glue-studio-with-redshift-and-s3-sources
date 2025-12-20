@@ -1,0 +1,16 @@
+order_id,customer_id,order_date,order_amount,order_status
+O001,C001,2023-02-01,150.50,completed
+O002,C001,2023-03-15,200.75,completed
+O003,C002,2023-03-20,89.99,completed
+O004,C003,2023-04-10,450.00,completed
+O005,C004,2023-04-15,125.25,pending
+O006,C005,2023-05-20,320.80,completed
+O007,C006,2023-06-25,275.50,completed
+O008,C007,2023-07-30,189.99,cancelled
+O009,C008,2023-08-05,410.00,completed
+O010,C009,2023-09-20,95.75,completed
+O011,C010,2023-10-28,550.00,completed
+O012,C001,2023-11-05,175.25,completed
+O013,C002,2023-11-10,220.50,shipped
+O014,C003,2023-11-15,380.00,completed
+O015,C005,2023-12-01,290.75,completed

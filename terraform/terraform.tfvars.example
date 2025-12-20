@@ -1,0 +1,37 @@
+# Example Terraform Variables Configuration
+# Copy this file to terraform.tfvars and update with your values
+# WARNING: Never commit terraform.tfvars to version control
+
+# AWS Region
+aws_region = "us-east-1"
+
+# Environment name (dev, staging, prod)
+environment = "dev"
+
+# Project name (used for resource naming)
+project_name = "visual-etl-glue"
+
+# Redshift Configuration
+# IMPORTANT: Change the password to a strong, unique value
+redshift_master_username = "admin"
+redshift_master_password = "ChangeMe123!"  # Must be at least 8 characters
+
+# Redshift Node Configuration
+# Options: dc2.large, dc2.8xlarge, ra3.xlplus, ra3.4xlarge, ra3.16xlarge
+redshift_node_type = "dc2.large"
+
+# Number of Redshift nodes (1 for single-node, 2+ for multi-node cluster)
+redshift_number_of_nodes = 1
+
+# AWS Glue Configuration
+# Glue version: 2.0, 3.0, 4.0 (latest)
+glue_version = "4.0"
+
+# Glue worker type: G.025X, G.1X, G.2X
+# G.025X: 2 vCPU, 4 GB RAM (light workloads)
+# G.1X: 4 vCPU, 16 GB RAM (standard, 1 DPU)
+# G.2X: 8 vCPU, 32 GB RAM (heavy workloads, 2 DPUs)
+glue_worker_type = "G.1X"
+
+# Number of Glue workers (minimum 2)
+glue_number_of_workers = 2
